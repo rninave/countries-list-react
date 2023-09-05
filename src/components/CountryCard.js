@@ -3,9 +3,8 @@ import Card from "react-bootstrap/Card";
 export default function CountryCard(props) {
   return (
     <>
-    
-        <div className="mx-2 mb-3">
-        <Card style={{ width: "18rem" }} className="h-100">
+      <div className="mx-2 mb-3">
+        <Card  className="h-100 w-18rem">
           <Card.Img  src={props.flagurl}/>
           <Card.Body>
             <Card.Title>{props.name}</Card.Title>
@@ -14,9 +13,6 @@ export default function CountryCard(props) {
           </Card.Body>
         </Card>
       </div>
-      
-  
-    
     </>
   );
 }
