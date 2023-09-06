@@ -15,8 +15,6 @@ function App() {
             />
           </Routes>
         </BrowserRouter>
-        <Home />
-        <Counrtydetails />
       </div>
     </>
   );

@@ -10,17 +10,18 @@ export default function Counrtydetails(props) {
 
   useEffect(() => {
     getCountryDetails(countryCode).then((result) => {
-      console.log("result.data", result.data);
+      // console.log("result.data:", result.data);
       setDetail(result.data);
     });
   }, [countryCode]);
-
-  return(
-    <div className="">
-    <div>
-      <img src={detail.flags?.png} alt={detail.name} />
-    </div>
-  </div>
-  ) 
-  
-}
+console.log(detail , 'detail')
+  return (
+      <div className="text-center mt-4">
+        <img src={detail[0]?.flags?.png} alt={detail[0]?.name.common} />
+        <p className="mt-3">Name:  {detail[0]?.name.common}</p>
+        <p className="mt-3">Capital:  {detail[0]?.capital}</p>
+        <p className="mt-3">population:  {detail[0]?.population}</p>
+     </div>
+    
+  );
+} 
