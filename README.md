@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## project details 
+
+In this project, we aim to create a comprehensive database of countries worldwide, including details such as country name, population, capital city, flag image, and more. To enhance user experience, we'll implement a search filter feature to easily find specific countries from the list
+
+
+
+
